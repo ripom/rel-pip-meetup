@@ -3,7 +3,7 @@ resource "azurerm_kubernetes_cluster" "aksfrontend" {
   location            = "${var.location}"
   resource_group_name = "${var.infrastructure-rg}"
   dns_prefix          = "${var.env}-meetup-aksfrontend-${var.location}"
-  kubernetes_version  = "1.10.8"
+  kubernetes_version  = "1.10.9"
 
 
 
